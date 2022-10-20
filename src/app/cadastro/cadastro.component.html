@@ -1,0 +1,23 @@
+<form [formGroup]="formularioCadastro">
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Logo: </label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="logo" formControlName="logo">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Nome: </label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nome" formControlName="nome">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Localizção: </label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="localização" formControlName="localizacao">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Avaliações: </label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="avaliações" formControlName="avaliacao">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Contato</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Contato" formControlName="contato">
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="enviar()">Cadastrar</button>
+</form>
